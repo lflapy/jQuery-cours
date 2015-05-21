@@ -18,95 +18,73 @@
     font-style: normal;
 }
 
-
+/*Corps du texte*/
 body
 {
-	margin: auto;
+	position: center;
+
+
 	/*background-image: url("../colors/stardust/stardust.png");*/
 
 
 }
-.presentation
+#page
 {
-	border:2px solid black;
-    height: 500px;
+    max-width: 900px;
+    min-width: auto;
+    
 }
-.realisation
-{
-    height: 500px;
-}
-.contact
-{
-    height: 500px;
-}
+
+
+
+
+/*Barre Navigation */
 
 nav
-
 {
-
+   
+    background-color: yellow;
     display: inline-block;
-
-    width: 740px;
-
-    text-align: right;
-
+    text-align: center;
+    color:maroon;
 }
-#presentation
+.flottante
 {
-    width: 50%;
+    margin-left: 200px;
 }
-
-
 nav ul
-
 {
-
     list-style-type: none;
-
 }
-
 
 nav li
-
 {
-
     display: inline-block;
-
-    margin-right: 15px;
-
+    margin-right: 50px;
+    text-align: center;
 }
-
 
 nav a
-
 {
+    text-decoration:none;
 
-    font-size: 1.5em;
-
-    color: #112233;
-
-    padding-bottom: 3px;
-
+}
+nav a:hoover
+{
     text-decoration: none;
-    margin-right: 50px;
+}
+nav a:focus
+{
+
+    background-color: #FFCC66;
+
 }
 
 
-nav a:hover
-#presentation
+section
 {
-	border:2px solid black;
-}
-#realisation
-{
-	border:2px solid black;
-}
-#contact
-{
-	border:2px solid black;
-}
-.contact
-{
-    border: 2px double green;
+    width:500px;
+    magrin:auto;
     
+   
 }
