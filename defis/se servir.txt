@@ -1,0 +1,102 @@
+
+
+
+</div>	
+<nav>
+<div>
+<ul>
+<li><a href="#quisuisje">Qui suis-je</a><br /</li>
+<li><a href="#réalisation">Réalisations</a><br /</li>
+<li><a href="#contacts">Contacts</a><br /</li>
+</ul>
+</nav>
+
+
+<header>
+    <h1>Ma grande page</h1>
+</header>
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Zozor - Le Site Web</title>
+    </head>
+
+    <body>
+       
+        
+       
+        
+        <section>
+            <aside>
+                <h1>À propos de l'auteur</h1>
+                <p>C'est moi, Zozor ! Je suis né un 23 novembre 2005.</p>
+            </aside>
+            <article>                
+                <h1>Je suis un grand voyageur</h1>
+                <p>Bla bla bla bla (texte de l'article)</p>
+            </article>
+        </section>
+        
+        <footer>
+            <p>Copyright Zozor - Tous droits réservés
+
+            <a href="#">Me contacter !</a></p>
+        </footer>
+        
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>
+    Aller directement à la partie traitant de :<br />
+    <a href="#cuisine">La cuisine</a><br />
+    <a href="#rollers">Les rollers</a><br />
+    <a href="#arc">Le tir à l'arc</a><br />
+</p>
+<h2 id="cuisine">La cuisine</h2>
+
+<p>... (beaucoup de texte) ...</p>
+
+<h2 id="rollers">Les rollers</h2>
+
+<p>... (beaucoup de texte) ...</p>
+
+<h2 id="arc">Le tir à l'arc</h2>
+
+<p>... (beaucoup de texte) ...</p>
+	
+		<div id=presentation>
+		<h1>Présentation Gros Titre</h1>
+			<div>
+			<h1>Le Mégamix</h1>
+<p>
+    Rendez-vous quelque part sur une autre page :<br />
+    <a href="ancres.html#cuisine">La cuisine</a><br />
+    <a href="ancres.html#rollers">Les rollers</a><br />
+    <a href="ancres.html#arc">Le tir à l'arc</a><br />
+</p>
+			
+			
+			</div>
+		
+		</div>
+	
+	</body>
+	
+	</html>

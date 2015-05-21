@@ -1,0 +1,9 @@
+
+Effets spéciaux
+
+L'effet .effect() est certes associé à toutes sortes de propriétés magiques, mais c'est loin d'être la fonctionnalité la plus décoiffante de l'IU jQuery. Cette bibliothèque connaît un nombre important d'effets inclus pour que votre site web ait un look élégant et professionnel avec étonnamment peu de code.
+
+Vous pouvez en apprendre plus dans la documentation de l'IU jQuery !
+Instructions
+
+Jetez un œil au code dans script.js, puis cliquez sur Vérifier vos réponses, avant de vous rendre dans l'onglet Résultat pour constater ce que l'IU jQuery peut faire pour vous. Assurez-vous de cliquer sur chacune des sections de l'accordéon !

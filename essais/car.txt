@@ -1,0 +1,9 @@
+
+Voiture de course
+
+L'UI jQuery inclut une fonction .draggable() qui rend n'importe quel élément HTML déplaçable : vous pouvez cliquer dessus et le déplacer n'importe où sur la page !
+
+Nous nous sommes dit que vous deviez être fatigué d'utiliser des blocs <div>, donc nous avons créé une CSS voiture. Nous avons énormément travaillé dessus.
+Instructions
+
+Appelez la fonction .draggable() sur '#voiture'. Cliquez sur Vérifier vos réponses, puis allez dans l'onglet Résultat pour déplacer votre voiture sur la page !
