@@ -1,0 +1,47 @@
+body, div, ul
+{
+	margin:0; padding: 30px;
+}
+body
+{
+	background-color: red;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+
+/*Ensemble page fixé et centré*/
+.global
+{
+	width: 900px;
+	margin: 0 auto;
+	background-color: lavender;
+}
+.contenu
+{
+	margin-right: auto;
+	margin-right: auto;
+	min-width: 500px;
+	float: center;
+	padding: 30px;
+	padding-left: 30px;
+	backround-color: white;
+}
+.blocmenu
+{
+	width: 200px;
+	float: top;
+}
+#menu li
+{
+	float: left;
+	list-style-type: none;
+}
+
+#menu li a, #menu li a :visited
+{
+	display: block;
+	padding: 10px;
+	font-size: 16px;
+	text-decoration: none; 
+	color:black;
+}
