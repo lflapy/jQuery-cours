@@ -84,7 +84,20 @@ nav a:focus
 section
 {
     width:500px;
+
     magrin:auto;
     
    
+}
+article
+section
+{
+    font-size: 0.8em;
+    color:black;
+    display:inline-table;
+    position:relative;
+    right:-100px;
+    margin-left: 10px;
+    max-width:27%;
+    min-width:auto;
 }
