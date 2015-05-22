@@ -8,6 +8,7 @@ body
 	background-color: blue;
 	font-family: Arial, sans-serif;
 	font-size: 16px;
+	display:flex;
 }
 
 /*Ensemble page fixé et centré*/
@@ -34,7 +35,6 @@ body
 {
 	width: 740px;
     text-align: center;
-
     text-shadow: .075em .075em .0 tomato;
 	display:inline-block;
 	margin-left: 30px;
@@ -69,29 +69,25 @@ body
 	text-decoration: none;
 }
 #menu li a:hover
-{
-	
-	
+{	
 	color: coral;
-	
 }
 
 /*Titre Presentation*/
 h1
 {
-	text-align: center;
+	/*text-align: center;*/
 	font-size: 2em;
 	border-radius:50%;
 	box-shadow: 5px -10px 5px violet, 5px -20px 5px blue;
+	
 	background-color:yellow;
 
 	text-shadow: 0 2px rgb(42, 92, 88), 0 2px 0 rgba(1, 1, 1, 1), 0 -3px 0 rgba(0, 0, 0, .45), 0 2px 0 rgba(255, 255, 255, .5), 0 2px 2px rgba(255, 255, 255, .2);
 }
-
 .presentation p
 {
-	background: url(colors/paris.png) repeat content-box;
-	background-size: cover;
+	
     font-size: 16px;
     font-family: Courier News, Arial, sans-serif;
     text-align: justify;
@@ -102,21 +98,46 @@ h1
 .realisationphotos, div, p1
 {
 
-	background: url(colors/red-wine-in-green-bottle.jpg) no-repeat content-box;
+	background: url(colors/red-wine-in-green-bottle.jpg width="40") no-repeat content-box;
 	background-size: cover;
 	backround: url(colors/red);
 }
 .realisationphotos, div, p2
 {
 
-	background: url(colors/abear.jpg) no-repeat content-box;
+	background: url(colors/abear.jpg) width="200"no-repeat content-box;
 	background-size: cover;
 	backround: url(colors/red);
 }
 
-   /* background: -webkit-gradient(linear, left top, left bottom, from(#111), to(#ffffff));
-    -webkit-background-clip: text;
-    /*-webkit-text-fill-color: transparent;*/*/
-	
-	/*background-origin: content-box;
-	background-repeat: no-repeat;*/
+
+
+
+
+.realisation
+{
+	display:flex;
+	border:1px solid black;
+	width: auto;
+	min-height: 300px;
+	max-height: auto;
+}
+.col-gauche 
+{
+    float:left;
+    width:50%;
+    top: 100%;
+}
+
+.col-droite 
+{
+    width:50%;
+  	float:right;
+  	top: 100%;
+}
+.col-gauche, img
+{
+	position:abolute;
+}
+
+
