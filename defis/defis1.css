@@ -1,10 +1,11 @@
 body, div, ul
 {
+
 	margin:0; padding: 30px;
 }
 body
 {
-	background-color: red;
+	background-color: blue;
 	font-family: Arial, sans-serif;
 	font-size: 16px;
 }
@@ -21,10 +22,11 @@ body
 	margin-right: auto;
 	margin-right: auto;
 	min-width: 500px;
+	min-height: 50px;
 	float: center;
 	padding: 30px;
 	padding-left: 30px;
-	backround-color: white;
+	/*backround-color: white;*/
 }
 
 /*Pour le menu navigation*/
@@ -47,7 +49,7 @@ body
 
 #menu li
 {
-	
+
 	display: inline-block;
 	text-align: center;
     
@@ -57,7 +59,9 @@ body
 
 	display:block;
 
-	border-top:solid lightgray 2px;
+	border-top:solid white 2px;
+	border-bottom: solid white 2px;
+	box-shadow:10px 20px 30px darkslategray;
 	font-family: Arial, sans-serif;
 	font-size: 1.8em;
 	font-weight: bold;
@@ -66,9 +70,9 @@ body
 }
 #menu li a:hover
 {
-	background-color: lightsteelblue;
-	background: linear-gradient (silver, dimgray);
-	color: blue;
+	
+	
+	color: coral;
 	
 }
 
@@ -80,6 +84,39 @@ h1
 	border-radius:50%;
 	box-shadow: 5px -10px 5px violet, 5px -20px 5px blue;
 	background-color:yellow;
-	text-shadow: 0 1px rgb(88, 92, 42), 0 1px 0 rgba(0, 0, 0, 1), 0 -3px 0 rgba(0, 0, 0, .45), 0 1px 0 rgba(255, 255, 255, .5), 0 2px 2px rgba(255, 255, 255, .2);
+
+	text-shadow: 0 2px rgb(42, 92, 88), 0 2px 0 rgba(1, 1, 1, 1), 0 -3px 0 rgba(0, 0, 0, .45), 0 2px 0 rgba(255, 255, 255, .5), 0 2px 2px rgba(255, 255, 255, .2);
 }
 
+.presentation p
+{
+	background: url(colors/paris.png) repeat content-box;
+	background-size: cover;
+    font-size: 16px;
+    font-family: Courier News, Arial, sans-serif;
+    text-align: justify;
+    color:white;
+    
+	
+}
+.realisationphotos, div, p1
+{
+
+	background: url(colors/red-wine-in-green-bottle.jpg) no-repeat content-box;
+	background-size: cover;
+	backround: url(colors/red);
+}
+.realisationphotos, div, p2
+{
+
+	background: url(colors/abear.jpg) no-repeat content-box;
+	background-size: cover;
+	backround: url(colors/red);
+}
+
+   /* background: -webkit-gradient(linear, left top, left bottom, from(#111), to(#ffffff));
+    -webkit-background-clip: text;
+    /*-webkit-text-fill-color: transparent;*/*/
+	
+	/*background-origin: content-box;
+	background-repeat: no-repeat;*/
