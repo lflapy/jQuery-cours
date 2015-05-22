@@ -32,6 +32,8 @@ body
 {
 	width: 740px;
     text-align: center;
+
+    text-shadow: .075em .075em .0 tomato;
 	display:inline-block;
 	margin-left: 30px;
 	float: top;
@@ -59,7 +61,6 @@ body
 	font-family: Arial, sans-serif;
 	font-size: 1.8em;
 	font-weight: bold;
-	color: brown;
 	text-shadow:black 2px 1px 1px;
 	text-decoration: none;
 }
@@ -67,15 +68,18 @@ body
 {
 	background-color: lightsteelblue;
 	background: linear-gradient (silver, dimgray);
-	color: white;
-	text-shadow: 2px 2px 2px;
+	color: blue;
+	
 }
 
 /*Titre Presentation*/
 h1
 {
 	text-align: center;
-	font-size: 1.5em;
-
+	font-size: 2em;
+	border-radius:50%;
+	box-shadow: 5px -10px 5px violet, 5px -20px 5px blue;
+	background-color:yellow;
+	text-shadow: 0 1px rgb(88, 92, 42), 0 1px 0 rgba(0, 0, 0, 1), 0 -3px 0 rgba(0, 0, 0, .45), 0 1px 0 rgba(255, 255, 255, .5), 0 2px 2px rgba(255, 255, 255, .2);
 }
 
