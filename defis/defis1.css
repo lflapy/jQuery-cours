@@ -26,22 +26,56 @@ body
 	padding-left: 30px;
 	backround-color: white;
 }
-.blocmenu
+
+/*Pour le menu navigation*/
+#menu
 {
-	width: 200px;
+	width: 740px;
+    text-align: center;
+	display:inline-block;
+	margin-left: 30px;
 	float: top;
 }
-#menu li
+#menu li a
 {
-	float: left;
-	list-style-type: none;
+	
+	padding-right: 30px;
+	padding-left: 30px;
 }
 
-#menu li a, #menu li a :visited
+#menu li
 {
-	display: block;
-	padding: 10px;
-	font-size: 16px;
-	text-decoration: none; 
-	color:black;
+	
+	display: inline-block;
+	text-align: center;
+    
 }
+#menu li a, #menu li a:visited 
+{
+
+	display:block;
+
+	border-top:solid lightgray 2px;
+	font-family: Arial, sans-serif;
+	font-size: 1.8em;
+	font-weight: bold;
+	color: brown;
+	text-shadow:black 2px 1px 1px;
+	text-decoration: none;
+}
+#menu li a:hover
+{
+	background-color: lightsteelblue;
+	background: linear-gradient (silver, dimgray);
+	color: white;
+	text-shadow: 2px 2px 2px;
+}
+
+/*Titre Presentation*/
+h1
+{
+	text-align: center;
+	font-size: 1.5em;
+
+}
+
