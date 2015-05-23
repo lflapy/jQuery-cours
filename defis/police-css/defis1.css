@@ -1,3 +1,4 @@
+/*Couleur d'arrière plans et alignement definition de la police*/
 body, div, ul
 {
 
@@ -67,7 +68,7 @@ body
 	color: coral;
 }
 
-/*Titre H1 et H2*/
+/*Titre H1 et H3*/
 h1 
 {
 	text-align: center;
@@ -86,11 +87,21 @@ h3
 	background-color:yellow;
 	text-shadow: 0 2px rgb(42, 92, 88), 0 2px 0 rgba(1, 1, 1, 1), 0 -3px 0 rgba(0, 0, 0, .45), 0 2px 0 rgba(255, 255, 255, .5), 0 2px 2px rgba(255, 255, 255, .2);
 }
+/*Presentation*/
+p:hover
+{
+	text-align: justify;
+	font-size: 1em;
+	padding: 30px 30px 30px 30px;
+	color:peachpuff;
+}
 
+
+/*Bloc réalisation en 2 colonnes*/
 .realisation
 {
+	background-image: url(../colors/engine.jpg);
 	display:flex;
-	border:1px solid black;
 	width: auto;
 	min-height: 300px;
 	max-height: auto;
@@ -100,6 +111,7 @@ h3
     float:left;
     width:50%;
     top: 100%;
+    
 }
 
 .colums2
@@ -112,5 +124,42 @@ h3
 {
 	position:abolute;
 }
+.colums1 + img:hover
+{
+	color:peachpuff;
+}
+/*Formulaire*/
+#formulaire
+{
+	width:50%;
+	margin-left: 200px;
+}
 
+label
+{
 
+	padding: 5px;
+	display: block; 
+	width: 150px;
+}
+.style_input:hover
+{
+	width:200px;
+	height:20px;
+	font-size:14px;
+	font-style: bold;
+	color:peachpuff;
+}
+label
+{
+	color:red;
+} 
+.contact
+{
+	font-style: 18px;
+}
+#formulaire
+{
+	background-image: url(../colors/blood.png) ;
+
+}

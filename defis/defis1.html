@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-
   <head>
+
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="police-css/defis1.css"/>
     <!--[if IE]>
@@ -14,8 +14,10 @@
   <![endif]-->
     <title>Defis One</title>
   </head>
+
+   <!--Page Entière -->
   <body>
-    <div class="global"> <!--Page Entière -->
+    <div class="global">
 
       <nav class="blocmenu"> <!--Navigation (les trois choix) -->
         <ul id="menu">
@@ -36,28 +38,30 @@ Nam scelerisque tempus est, non aliquet orci mollis et. Curabitur eu diam id met
 Nam scelerisque tempus est, non aliquet orci mollis et. Curabitur eu diam id metus elementum euismod quis a tortor. Vestibulum a iaculis lectus. Duis aliquet, nunc at tristique convallis, dolor nisl viverra diam, facilisis sodales magna arcu eget odio. In sed placerat tortor. Mauris at justo tempus, euismod tellus at, efficitur dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur vehicula, enim in ullamcorper hendrerit, eros felis posuere nulla, ac egestas arcu lorem quis lorem. Nullam laoreet enim quis convallis feugiat. Fusce eget accumsan quam. Cras efficitur dapibus pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui ex, ornare non magna ut, tincidunt vulputate velit. Sed molestie odio ut dui vestibulum lacinia. 
 </p>
   </section>
-     
-          <h1 id="realisation">REALISATION</h1>
-          <section class="realisation">
-            <div class="colums1"><h3>PHOTOS</h3>
-              <img src="colors/spirit-island-maligne-lake_jasper-national-park_alberta.jpg" width="100%" alt="Photos divers" />
-              <img src="colors/fiat.jpg" width="100%" alt="Photos divers" />
-              <img src="colors/cartouche-3.jpg" width="100%" alt="Photos divers" />
-              <img src="colors/red-wine-in-green-bottle.jpg" width="100%" alt="Photos divers" /><img src="colors/crabs.jpg" width="100%"/>
+  <!-- Debut de réalisation avec 2 colonnes -->
+  <h1 id="realisation">REALISATION</h1>
+   <section class="realisation">
+    <div class="colums1"><h3>PHOTOS</h3><!-- La première colonne -->
+      <img src="colors/spirit-island-maligne-lake_jasper-national-park_alberta.jpg" width="100%" alt="Photos divers" />
+      <img src="colors/fiat.jpg" width="100%" alt="Photos divers" />
+      <img src="colors/cartouche-3.jpg" width="100%" alt="Photos divers" />
+      <img src="colors/red-wine-in-green-bottle.jpg" width="100%" alt="Photos divers" /><img src="colors/crabs.jpg" width="100%"/>
    </div>
 
-          <div class="colums2"><h3>VIDEOS</h3>
-            <iframe width="420" height="315" src="https://www.youtube.com/embed/KvWF6XbHJJE" frameborder="0" allowfullscreen></iframe>
-            <iframe width="420" height="315"src="https://www.youtube.com/embed/GyZw7czLdLc" frameborder="0" allowfullscreen></iframe>
+   <div class="colums2"><h3>VIDEOS</h3> <!-- La deuxième colonne -->
+      <iframe width="420" height="315" src="https://www.youtube.com/embed/KvWF6XbHJJE" frameborder="0" allowfullscreen></iframe>
+      <iframe width="420" height="315"src="https://www.youtube.com/embed/GyZw7czLdLc" frameborder="0" allowfullscreen></iframe>
             <iframe width="420" height="315"src="https://www.youtube.com/embed/0Y8sA6OoiXk" frameborder="0" allowfullscreen></iframe>
             <iframe width="420" height="315" src="https://www.youtube.com/embed/sCJXGHlxGz4" frameborder="0" allowfullscreen></iframe>
              <iframe width="420" height="315" src="https://www.youtube.com/embed/ljfdg3mPcvY" frameborder="0" allowfullscreen></iframe>
          </div>
 
 
-</section>
+      </section> 
+
+      <!-- Ici commence le formulaire  -->
       <div id="formulaire">
-      <section class="contact"> <!--Contenu de la page formulaire de contact -->
+      <section class="contact"> 
         <h1 id="contact">CONTACT</h1>
         
            <form method="post" action="envoi.php">
@@ -67,24 +71,23 @@ Nam scelerisque tempus est, non aliquet orci mollis et. Curabitur eu diam id met
            </fieldset>    
 
            <fieldset>
-
-              <label>Prenom</label>
-              <input type="text" name="prenom" value="Votre prenom" onfocus="if (value =='Votre prenom') value='';" />
-           </fieldset>
-
-           <fieldset>
-              <label>Message</label>
-              <textarea cols="40" rows="4" name="Message" id="Message" onclick="this.value ='';" >Tapez votre message ici</textarea>
+            <label>Prenom</label>
+            <input type="text" name="prenom" value="Votre prenom" onfocus="if (value =='Votre prenom') value='';" />
             </fieldset>
+              <fieldset>
+                <label for=email>Email</label>
+                 <input id=email name=email type=email placeholder="exemple@domaine.com" required>
+            </fieldset>
+
+            <fieldset>
+              <label>Message</label>
+              <textarea cols="40" rows="4" name="Message" id="Message" onclick="this.value ='';" >Tapez votre message ici</textarea><input type="submit" value="Envoyer" style="background-color: darkslateblue; border: 1px solid black;">
+            </fieldset>
+
             </form>
-          
-
-      </section>
-    </div>
-
-
+            </section>
+            </div>
 
      </div>
-
   </body>
   </htmlW
