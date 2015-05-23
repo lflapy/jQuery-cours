@@ -20,24 +20,26 @@ body
 	background-image: url(../colors/brioche.jpg);
 	background-position: 100%;
 	background-attachment: fixed;
+	clear:both;
 
 }
 
 /*Pour le menu navigation*/
+
 #menu
 {
 	position:fixed;
+	margin-left: 40px;
+	top: -20px;
 	width: 740px;
     text-align: center;
     text-shadow: .075em .075em .0 tomato;
 	display:inline-block;
-	margin-left: 30px;
-	margin-top: -2.5em;
-	float: top;
+
+	
 }
 #menu li a
 {
-	
 	padding-right: 30px;
 	padding-left: 30px;
 }
@@ -137,7 +139,6 @@ p:hover
 
 label
 {
-
 	padding: 5px;
 	display: block; 
 	width: 150px;
@@ -161,5 +162,4 @@ label
 #formulaire
 {
 	background-image: url(../colors/blood.png) ;
-
 }
